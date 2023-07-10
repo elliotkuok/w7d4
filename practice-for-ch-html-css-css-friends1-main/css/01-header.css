@@ -1,0 +1,33 @@
+/* PHASE 1: Header */
+
+body {
+    font-weight: 400;
+    font-family: "Roboto";
+    font-size: 16px;
+    background: #eee;
+}
+
+nav {
+    display: flex;
+}
+
+.header {
+    background: #f00;
+    justify-content: center;
+    display: flex;
+}
+
+.header-nav{
+    width: 900px;
+    justify-content: space-between;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    font-weight: 700;
+}
+
+.header-logo {
+}
+
+.header-list {
+    display: flex;
+}
